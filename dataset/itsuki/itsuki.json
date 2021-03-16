@@ -71,7 +71,7 @@
                                 "could i get something to eat"
                         ],
                         "responses": [
-                                "We sell chocolate chip cookies for $2!",
+                                "I want to eat chocolate chip cookies ",
                                 "Cookies are on the menu!"
                         ],
                         "context_set": ""
@@ -85,6 +85,34 @@
                         ],
                         "responses": [
                                 "We are open 7am-4pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "dating",
+                        "patterns": [
+                                "can you go with me?",
+                                "can i take your time?",
+                                "can i come to your house"
+                        ],
+                        "responses": [
+                                "Seriously",
+                                "Are seriously to go with me?",
+                                "i want to get some cake,hmm yummmy!!!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "express_love_but",
+                        "patterns": [
+                                "I love you",
+                                "I really love you",
+                                "I got something feel to you"
+                        ],
+                        "responses": [
+                                "Haaaaa",
+                                "Wait can you say it again",
+                                "I'm Sorry,I dont love you"
                         ],
                         "context_set": ""
                 }
